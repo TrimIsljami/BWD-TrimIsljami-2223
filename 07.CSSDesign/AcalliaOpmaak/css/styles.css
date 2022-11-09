@@ -1,0 +1,154 @@
+/**
+ *
+ * Common styles
+ *
+ * @author Trim Isljami
+ *
+ */
+
+/* ===========================================
+   General
+   =========================================== */
+
+/* html, body and general element styles here */
+html {
+   background-color: #dfdfdf;
+}
+
+body {
+   background-color: #fff;
+   border-radius: 1%;
+}
+
+/* ... */
+
+
+/* ===========================================
+   Menu
+   =========================================== */
+
+/* menu styles here */
+
+nav ul {
+   display: flex;
+   flex-flow: row nowrap;
+   list-style-type: none;
+   padding-left: 0;
+}
+
+nav ul a {
+   background-color: none;
+   color: black;
+   display: block;
+   padding: 10px;
+   text-decoration: none;
+   transition: background-color 0.5s, color 0.5s;
+}
+
+nav ul .active{
+   background-color: #B52025;
+   color: #fff;
+}
+
+nav ul a:hover{
+   background-color: #B52025;
+   color: #fff;
+}
+
+
+/* ... */
+
+
+
+/* ===========================================
+   Banner
+   =========================================== */
+
+/* banner styles here */
+
+#banner{
+   background-image: url(../img/home_section_thumb3.jpg);
+   background-size: 950px;
+   background-repeat: no-repeat;
+   border-style: solid;
+   border-color: #B52025;
+   border-width: 5px;
+   outline: black;
+   box-shadow: 0px 10px 10px grey;
+}
+
+#banner p{
+   color: #fff;
+   background-color: black;
+}
+
+.minibanner {
+   border: 1px solid grey;
+   padding: 5px;
+}
+/* ... */
+
+
+
+/* ===========================================
+   Main
+   =========================================== */
+
+/* main styles here */
+
+h3 {
+   color: #B52025;
+   text-transform: uppercase;
+}
+
+h3::after {
+   content:"\2192";
+}
+
+.more {
+   text-align: end;
+}
+
+
+.more a{
+   border: 1px solid #B52025;
+   border-radius: 5px 5px 5px 5px;
+   color: #B52025;
+   display: inline-block;
+   font-family: Arial;
+   padding: 5px 10px;
+   text-decoration: none;
+}
+
+.more a::after{
+   content:"\00BB"
+}
+
+input{
+   background-color: #b52025;
+}
+
+input[type=submit]{
+   color: #fff;
+}
+
+/* ... */
+
+
+/* ===========================================
+   Footer
+   =========================================== */
+
+/* footer styles here */
+
+footer{
+   background: linear-gradient(
+      to bottom,
+      #dfdfdf 30%,
+      #fff 70%
+   );
+   border: 2px dotted #dfdfdf;
+   text-align: center;
+}
+
+/* ... */

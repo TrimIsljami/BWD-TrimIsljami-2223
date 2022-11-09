@@ -1,0 +1,53 @@
+#menu1 {
+    font-family: "Open Sans Condensed";
+    list-style: none;
+    padding: 10px 10px;
+}
+
+#menu1 a {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-weight: 5px;
+    letter-spacing: 1px;
+    margin: 1px 5px ;
+    padding: 5px 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: background-color 1s;
+}
+
+#menu1 .active a{
+    background-color: #74c593;
+}
+
+#menu1 a:hover {
+    background-color: #74c593;
+}
+
+#menu2 {
+    background-color: darkred;
+    border-bottom: red;
+    list-style: none;
+    padding: 10px 10px;
+    display: flex;
+}
+
+#menu2 a {
+    color: white;
+    font-family: "Open Sans";
+    font-size: medium;
+    font-weight: 5px;
+    letter-spacing: 1px;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#menu2 .active a {
+    text-decoration: underline;
+}
+
+#menu2 a:hover {
+    text-decoration: underline;
+}
