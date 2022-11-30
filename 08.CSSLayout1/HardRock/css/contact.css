@@ -1,0 +1,62 @@
+/* ===========================================
+   Main
+   margins, paddings, flex-properties, text-align,
+   float, width, en (enkel voor de textarea van het formulier) height
+   =========================================== */
+
+/* top */
+
+#main_top {
+   padding: 30px 15px 0 15px;
+}
+
+#main_top h2 {
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+address {
+   font-size: 14px;
+   font-style: normal;
+   line-height: 1.6;
+   margin-bottom: 20px;
+}
+
+/* bottom */
+
+#bottom_content {
+   padding: 30px 15px 0 15px;
+   display: flex;
+}
+
+input {
+   width: 100%;
+}
+
+label {
+   display: inline-block;
+}
+
+#left {
+   width: 50%;
+}
+
+#right {
+   width: 50%;
+}
+
+iframe {
+   border: none;
+}
+
+/* form */
+
+form label {
+   font-size: 16px;
+   font-style: italic;
+}
+
+form input {
+   padding: 7px;
+}
+
