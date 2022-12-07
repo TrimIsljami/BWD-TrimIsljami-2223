@@ -1,0 +1,172 @@
+/* RESET */
+/* ======= */
+
+img{
+    border: 0;
+    max-width: 100%;
+}
+ 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* GENERAL */
+/* ======= */
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+}
+
+a {
+    color: #0288cc;
+    text-decoration: none;
+ }
+
+h1 {
+    color: #0288cc;
+    margin-bottom: 10px;
+}
+
+h3, h4 {
+    color: #0288cc;
+    margin-bottom: 5px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* HEADER */
+/* ======= */
+
+header{ 
+    margin-bottom: 30px;
+    padding: 20px 20px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav a {
+    font-family: Georgia, serif;
+    font-size: 14px;
+}
+ 
+nav a:hover, nav a:focus {
+    text-decoration: none;
+}
+ 
+nav li a {
+    border-top: 2px solid #fff;
+    color: #66bb44;
+    display: block;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+nav li a:hover, nav li.active a {
+    background-color: #66bb44;
+    color: #fff;
+}
+ 
+#logo span {
+    display: none;
+}
+
+/* BANNER */
+
+#banner {
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+}
+ 
+.banner_box {
+    padding: 120px 0 60px 0;
+}
+
+.banner_box h2 {
+    color: #fff;
+}
+ 
+.banner_box p {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* ======= */
+
+
+/* GALLERY */
+
+
+#gallery ul {
+    list-style: none;
+}
+
+#gallery ul li {
+    display: block;
+    margin: 5px;
+}
+
+#gallery img {
+    border-bottom: 2px solid #66bb44;
+    display: block;
+    margin-bottom: 8px;
+    padding: 4px;
+}
+
+#gallery a {
+    color: #0288cc;
+    display: block;
+    font-weight: bold;
+    padding: 5px 0;
+    text-align: start;
+    text-decoration: none;
+    width: 100%;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+
+@media (min-width: 650px) {
+
+    header{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    nav ul{
+        display: flex;
+        flex-flow: row nowrap;
+        list-style-type: none;
+    }
+    
+    #gallery ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #gallery ul li {
+        max-width: 32%;
+        margin: 5px;
+    }
+}
