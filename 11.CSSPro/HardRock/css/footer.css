@@ -1,0 +1,34 @@
+/* ===========================================
+   Footer
+   =========================================== */
+
+   footer {
+    background-color: #fff;
+    border-top: 2px solid #ebeceb;
+    color: #666;
+    font-size: 11px;
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ footer ul{
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+ }
+ 
+ footer ul li{
+    margin: 5px;
+ }
+ 
+ footer > div a {
+     text-decoration: underline;
+     color: #666;
+     font-size: 11px;
+ }
+ #social_icons {
+     list-style: none;
+ }
+ 
